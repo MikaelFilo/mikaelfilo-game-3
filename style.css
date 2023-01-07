@@ -1,0 +1,91 @@
+/*
+Style the background and root element to make the default padding and margin to be zero, 
+and the box to be governed by the border-box. Center the container element in the webpage. 
+*/
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #7f53ac, #657ced);
+}
+
+.container {
+  position: absolute;
+  width: 50%;
+  min-width: 580px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background: #fff;
+  padding: 50px 10px;
+  border-radius: 5px;
+  display: grid;
+  justify-items: center;
+  font-family: 'poppins', sans-serif;
+}
+
+/*
+Next, we are styling the element inside the container, 
+to make the user interface more engaging.
+*/
+
+h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+input[type="text"] {
+  width: 90px;
+  font-weight: 600;
+  padding: 20px 0;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 30px;
+  border-radius: 5px;
+  border: 2px solid #202020;
+  color: #663399;
+}
+
+button {
+  width: 160px;
+  padding: 15px 0;
+  border-radius: 5px;
+  background-color: #663399;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+p {
+  font-weight: 400;
+}
+
+/*
+Styling the footer.
+*/
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 20px;
+  height: 50px;
+  background-color: #170B3B;
+  width: 100%;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+}
+
+footer a {
+    color: white;
+}
+
+
